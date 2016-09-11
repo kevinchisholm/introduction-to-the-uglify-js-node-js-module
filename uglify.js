@@ -4,7 +4,7 @@ var fs = require('fs');
 //get a reference to the uglify-js module
 var UglifyJS = require('uglify-js');
 
-//get a reference to the minified version of file-1.js, file-2.js and file-3.js
+//get a reference to the minified version of file-1.js
 var result = UglifyJS.minify(["file-1.js"]);
 
 //view the output
